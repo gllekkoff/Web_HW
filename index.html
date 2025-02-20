@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/styles.css">
         <title>Webblock</title>
     </head>
     <body>
@@ -13,13 +14,13 @@
                 <a href="#" class="header-link">Menu</a>
                 <a href="#" class="header-link">Contact</a>
                 <a href="#" class="header-link">About us</a>
-                <button class="sign-up-button">Sign up</button>
             </nav>
+            <button class="sign-up-button">Sign up</button>
         </header>
         <main class="main">
             <section class="container-first-block">
                 <section class="container-first-block-text">
-                    <span class="#1-container-text" >#1 Best Healthy Salad</span>
+                    <span class="numberone-container-text" >#1 Best Healthy Salad</span>
                     <h1 class="first-block-text">
                         <span class="skip-text" >Skip</span> The Diet, Just Eat
                         Healthy With Jez Salad
@@ -50,52 +51,86 @@
                         </div>
                     </div>
                 </section>
-                <section class="container-first-block-img">
+                <section class="container-first-block-woman">
                     <img
-                        class="fifth-block-icon"
+                        class="heart-icon"
                         src="images/heart-icon.svg"
                         alt="background-heart-icon"
                     />
                     <img
-                        class="fifth-block-icon"
+                        class="header-image-woman"
                         src="images/header-image.png"
                         alt="header-image-woman"
                     />
                     <img
-                        class="fifth-block-icon"
+                        class="dots-icon"
                         src="images/background-dots.svg"
                         alt="background-dots"
                     />
-                    <div class="customer-comment-contaier">
+                    <div class="customer-comment-container">
                         <img src="images/smile-icon.svg" alt="smile-icon"/>
-                        <p class="customer-comment-text">Our Happy Customer</p>
-                        <div class="customer-comment-text">
-                            <img class="customer-comment-star-icon" src="images/star-icon.svg" alt="star-icon">
-                            <p class="customer-comment-text-rating">4.9</p>
-                            <span class="customer-comment-text-reviews">(1.989 reviews)</span>
+                        <div class="customer-comment-content">
+                            <p class="customer-comment-text">Our Happy Customer</p>
+                            <div class="customer-comment-rating">
+                                <img class="customer-comment-star-icon" src="images/star-icon.svg" alt="star-icon">
+                                <p class="customer-comment-text-rating">4.9</p>
+                                <span class="customer-comment-text-reviews">(1.989 Reviews)</span>
+                            </div>
                         </div>
-                    </div>
+                    </div>     
                     <div class="calories-rating">
-                        <div class="calories-rating-text-container">
-                            <p class="calories-rating-text">Daily Calories</p>
-                            <h3 class="calories-rating-text-number">123 </h3><p class="calories-rating-text-cal">Cal</p>
-                        </div>
+                        <p class="calories-title">Daily Calories</p>
+                        <h3 class="calories-number"><span>123</span> Cal</h3>     
                         <div class="calories-progress-bars">
-                            <progress class="calories-progress-bar" value="30" max="100"></progress>
-                            <progress class="calories-progress-bar" value="50" max="100"></progress>
-                            <progress class="calories-progress-bar" value="60" max="100"></progress>
-                            <progress class="calories-progress-bar" value="55" max="100"></progress>
-                            <progress class="calories-progress-bar" value="50" max="100"></progress>
-                            <progress class="calories-progress-bar" value="70" max="100"></progress>
-                            <progress class="calories-progress-bar" value="80" max="100"></progress>
-                            <progress class="calories-progress-bar" value="90" max="100"></progress>
+                            <div class="calories-progress-wrapper">
+                              <div class="calories-progress-background"></div>
+                              <div class="calories-progress" style="height: 30%;"></div>
+                            </div>
+                        
+                            <div class="calories-progress-wrapper">
+                              <div class="calories-progress-background"></div>
+                              <div class="calories-progress" style="height: 50%;"></div>
+                            </div>
+                        
+                            <div class="calories-progress-wrapper">
+                              <div class="calories-progress-background"></div>
+                              <div class="calories-progress" style="height: 45%;"></div>
+                            </div>
+                        
+                            <div class="calories-progress-wrapper">
+                              <div class="calories-progress-background"></div>
+                              <div class="calories-progress" style="height: 60%;"></div>
+                            </div>
+                        
+                            <div class="calories-progress-wrapper">
+                              <div class="calories-progress-background"></div>
+                              <div class="calories-progress" style="height: 50%;"></div>
+                            </div>
+                        
+                            <div class="calories-progress-wrapper">
+                              <div class="calories-progress-background"></div>
+                              <div class="calories-progress" style="height: 70%;"></div>
+                            </div>
+                        
+                            <div class="calories-progress-wrapper">
+                              <div class="calories-progress-background"></div>
+                              <div class="calories-progress" style="height: 80%;"></div>
+                            </div>
+                          </div>
                         </div>
                     </div>
                 </section>
             </section>
             <section class="container-second-block">
-                <h1 class="second-block-text-1">WHY CHOOSE US FOR <span >YOUR HEALTY FOOD</span></h1>
-                <p class="second-block-text-2">We continue to consistently choose and maintain the quality of the fruit served, so that it remains fresh and nutritious when you eat it.</p>
+                <div class="container-second-block-text">
+                    <h1 class="second-block-text-1">
+                        WHY CHOOSE US FOR <span class="highlight">YOUR HEALTHY FOOD</span>
+                    </h1>
+                    <p class="second-block-text-2">
+                        We continue to consistently choose and maintain the quality of the fruit served, 
+                        so that it remains fresh and nutritious when you eat it.
+                    </p>
+                </div>
                 <section class="second-block-cards">
                     <article class="second-block-single-card">
                         <img class="second-block-card-icon" src="images/first-card-icon.svg" alt="card-1"/>
@@ -105,7 +140,7 @@
                         </div>
                         <div class="card-link-container">
                             <a href="#">Learn more</a>
-                            <img class="second-block-card-icon" src="images/right-arrow.svg" alt="right-arrow"/>
+                            <img class="card-right-arrow" src="images/right-arrow.svg" alt="right-arrow"/>
                         </div>
                     </article>
                     <article class="second-block-single-card">
@@ -120,7 +155,7 @@
                         </div>
                     </article>
                     <article class="second-block-single-card">
-                        <img class="card-right-arrow" src="images/third-card-icon.svg" alt="card-3"/>
+                        <img class="second-block-card-icon" src="images/third-card-icon.svg" alt="card-3"/>
                         <div class="card-text">
                             <h2 class="card-text-main">100 Top Brand</h2>
                             <p class="card-description">We are one of the best brands in the Food and Beverage sector in Indonesia.</p>
@@ -137,7 +172,7 @@
                     <h1 class="third-block-text-1">What Are People<br> Saying <span >About Us</span></h1>
                     <p class="third-block-text-2">We are very happy if you are satisfied with our service and products, let's read pure reviews from customers who bought our products.</p>
                     <div class="third-block-cards-numeration">
-                        <p class="third-block-cards-numeration-main">02</p><span class="third-block-cards-numeration-second">/05</span>
+                        <p class="third-block-cards-numeration-main">02</p><span class="third-block-cards-numeration-second">/ 05</span>
                     </div>
                     <div class="third-block-cards-arrows">
                         <!-- єсі що не видно стрілку вліво бо вона сама біла -->
