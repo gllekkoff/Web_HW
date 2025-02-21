@@ -1,11 +1,11 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box
+  box-sizing: border-box;
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #575757;
 }
 
@@ -13,19 +13,18 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1% 5%;
-  background: linear-gradient(to right, #fff 0%, #FEECE2 110%);
+  padding: 1% 8%;
+  background: linear-gradient(to right, #fff 0%, #feece2 110%);
 }
-
 
 .logo-text {
   font-size: 22px;
   font-weight: bold;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .logo-text span {
-  color: #FB9333;
+  color: #fb9333;
 }
 
 .header-nav {
@@ -45,14 +44,14 @@ body {
 
 .header-link:hover,
 .header-link.active {
-  color: #FB9333;
+  color: #fb9333;
   font-weight: 700;
 }
 
 .sign-up-button {
-  background: #FB9333;
+  background: #fb9333;
   color: white;
-  padding: 10px 25px;
+  padding: 15px 35px;
   border-radius: 25px;
   border: none;
   font-weight: 500;
@@ -62,9 +61,8 @@ body {
 }
 
 .sign-up-button:hover {
-  background: #FB9333;
+  background: #fb9333;
 }
-
 
 .container-first-block {
   display: flex;
@@ -72,9 +70,8 @@ body {
   justify-content: space-between;
   padding: 0% 8%;
   min-height: 100vh;
-  background: linear-gradient(215deg, #FEECE2 0%, #fff 50%);
+  background: linear-gradient(215deg, #feece2 0%, #fff 50%);
 }
-
 
 .container-first-block-text {
   display: flex;
@@ -86,17 +83,15 @@ body {
   gap: 20px;
 }
 
-
 .numberone-container-text {
   display: inline-block;
-  background: #FFE3BF;
-  color: #FB9333;
+  background: #ffe3bf;
+  color: #fb9333;
   font-weight: 600;
   padding: 8px 16px;
   border-radius: 20px;
   font-size: 16px;
 }
-
 
 .first-block-text {
   font-size: 72px;
@@ -106,11 +101,9 @@ body {
   max-width: 90%;
 }
 
-
 .skip-text {
-  color: #FB9333;
+  color: #fb9333;
 }
-
 
 .skip-text-under {
   font-size: 20px;
@@ -119,9 +112,8 @@ body {
   line-height: 1.5;
 }
 
-
 .order-food-button {
-  background: #FB9333;
+  background: #fb9333;
   color: white;
   padding: 15px 30px;
   border: none;
@@ -132,8 +124,9 @@ body {
   transition: all 0.3s ease;
   box-shadow: 0 5px 15px rgba(251, 147, 51, 0.3);
 }
+
 .order-food-button:hover {
-  background: #E47D1F;
+  background: #e47d1f;
   transform: scale(1.05);
 }
 
@@ -161,8 +154,6 @@ body {
   color: #828282;
 }
 
-
-
 .container-first-block-woman {
   width: 50%;
   height: 100%;
@@ -189,7 +180,6 @@ body {
   filter: blur(2px);
 }
 
-
 .customer-comment-container {
   position: absolute;
   bottom: 10%;
@@ -204,12 +194,10 @@ body {
   z-index: 3;
 }
 
-
 .customer-comment-container img {
   width: 25%;
   height: 25%;
 }
-
 
 .customer-comment-rating {
   display: flex;
@@ -220,33 +208,30 @@ body {
   color: #797979;
 }
 
-.customer-comment-text{
+.customer-comment-text {
   font-size: 12px;
   color: #575757;
   font-weight: bold;
   margin-bottom: 5%;
 }
 
-
 .customer-comment-star-icon {
   width: 10% !important;
   height: 10% !important;
-  color: #FB9333;
+  color: #fb9333;
 }
 
-.customer-comment-text-rating{
+.customer-comment-text-rating {
   font-size: 12px;
   color: #575757;
   font-weight: 600;
 }
 
-.customer-comment-text-reviews{
+.customer-comment-text-reviews {
   font-size: 10px;
   color: #797979;
   font-weight: 400;
-
 }
-
 
 .calories-rating {
   position: absolute;
@@ -258,7 +243,6 @@ body {
   z-index: 3;
 }
 
-
 .calories-rating {
   position: absolute;
   right: 13%;
@@ -267,27 +251,25 @@ body {
   border-radius: 15px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   z-index: 3;
+  transform: translateY(175%);
 }
-
 
 .calories-progress-bars {
   display: flex;
   align-items: flex-end;
-  gap: 5px;
+  gap: 6%;
   height: 75px;
   position: relative;
 }
 
-
 .calories-progress-wrapper {
   position: relative;
-  width: 9px;
+  width: 15px;
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: flex-end;
 }
-
 
 .calories-progress-background {
   width: 100%;
@@ -297,30 +279,28 @@ body {
   position: absolute;
 }
 
-
 .calories-progress {
   width: 100%;
   border-radius: 5px;
-  background: linear-gradient(to top, #FF6B00, #FFB74D);
+  background: linear-gradient(to top, #FB9333, #FFD7A0);
   position: relative;
 }
 
-
 .calories-number {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
-
 .calories-number span {
-  color: #2B2B2B;
+  color: #2b2b2b;
 }
 
-
-
-
-
+.calories-title{
+  font-size: 16px;
+  color: #575757;
+  font-weight: 500;
+}
 
 .container-second-block {
   display: flex;
@@ -346,7 +326,7 @@ body {
 }
 
 .second-block-text-1 .highlight {
-  color: #FB9333;
+  color: #fb9333;
 }
 
 .second-block-text-2 {
@@ -356,8 +336,6 @@ body {
   line-height: 1.6;
 }
 
-
-
 .second-block-cards {
   display: flex;
   justify-content: center;
@@ -366,7 +344,6 @@ body {
   width: 100%;
   margin-top: 20px;
 }
-
 
 .second-block-single-card {
   background: #fff;
@@ -385,11 +362,9 @@ body {
   position: relative;
 }
 
-
 .second-block-single-card:hover {
   transform: translateY(-5px);
 }
-
 
 .second-block-card-icon {
   width: 125px !important;
@@ -397,7 +372,6 @@ body {
   top: 20px;
   left: 20px;
 }
-
 
 .card-text {
   text-align: left;
@@ -408,7 +382,7 @@ body {
 .card-text-main {
   font-size: 24px;
   font-weight: 700;
-  color: #2B2B2B;
+  color: #2b2b2b;
   margin-bottom: 15px;
 }
 
@@ -430,7 +404,6 @@ body {
   cursor: pointer;
 }
 
-
 .card-link-container a {
   text-decoration: none;
   color: #575757;
@@ -440,7 +413,6 @@ body {
   display: flex;
   align-items: center;
 }
-
 
 .card-right-arrow {
   width: 20px;
@@ -453,64 +425,52 @@ body {
   margin-left: 8px;
 }
 
-
 .card-link-container:hover {
-  background: #FB9333;
+  background: #fb9333;
 }
 
 .card-link-container:hover a {
   color: #fff !important;
 }
 
-
-
-
-
-
-/* Full Section - Full Width & Height */
 .container-third-block {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
   min-height: 100vh;
-  background: #FEF3E9;
-  padding: 80px 7%;
+  background: #fef3e9;
+  padding: 9% 7%;
 }
 
-/* Left Text Section */
 .third-block-text {
-  max-width: 40%;
+  max-width: 60%;
 }
 
-/* Heading */
 .third-block-text-1 {
-  font-size: 56px;
+  font-size: 48px;
   font-weight: 700;
-  color: #2B2B2B;
+  color: #2b2b2b;
   margin-bottom: 15px;
   line-height: 1.2;
 }
 
-/* Orange Highlight */
 .third-block-text-1 span {
-  color: #FB9333;
+  color: #fb9333;
 }
 
-/* Paragraph */
 .third-block-text-2 {
   font-size: 18px;
   color: #575757;
   line-height: 1.6;
 }
 
-/* Number Pagination */
 .third-block-cards-numeration {
   display: flex;
   align-items: center;
   font-size: 36px;
   font-weight: 700;
-  color: #2B2B2B;
+  color: #2b2b2b;
   margin-top: 20px;
 }
 
@@ -518,9 +478,9 @@ body {
   font-size: 16px;
   color: #797979;
   margin-left: 5px;
+  margin-top: 3%;
 }
 
-/* Arrows */
 .third-block-cards-arrows {
   display: flex;
   gap: 15px;
@@ -534,74 +494,65 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #FEC77D;
+  background: #fec77d;
   border-radius: 8px;
   transition: all 0.3s ease;
   cursor: pointer;
 }
 
-/* Active Right Arrow */
 .third-block-cards-right-arrow {
-  background: #FB9333;
+  background: #fb9333;
 }
 
-/* Hover Effect */
 .third-block-cards-arrows div:hover {
-  background: #FB9333;
+  background: #fb9333;
 }
 
-/* Cards Layout */
 .third-block-cards {
   display: flex;
   gap: 30px;
   max-width: 65%;
   overflow: visible;
+  margin-left: 5%;
 }
 
-/* Individual Review Card */
 .third-block-single-card {
   position: relative;
   background: white;
   border-radius: 16px;
-  padding: 80px 25px 10px; /* Extra padding for profile image space */
+  padding: 80px 25px 10px;
   width: 350px;
   height: 450px;
   transition: transform 0.3s ease;
-  overflow: visible; /* Ensures profile image is not cut off */
+  overflow: visible;
 }
 
-/* Hover Effect for Cards */
 .third-block-single-card:hover {
   transform: translateY(-5px);
 }
 
-/* Profile Image */
 .reviewer-icon {
   width: 120px;
   height: 120px;
   border-radius: 12px;
   position: absolute;
-  top: -70px; /* Moves it fully above the card */
+  top: -70px;
   left: 25%;
   transform: translateX(-50%);
-  background: white; /* Prevents any background clipping */
+  background: white;
 }
-
 
 .third-block-single-card:hover .reviewer-icon {
   transform: translateX(-50%) scale(1.1);
 }
 
-
-/* Name */
 .reviwer-name {
   font-size: 30px;
   font-weight: 700;
-  color: #2B2B2B;
+  color: #2b2b2b;
   margin-top: 10px;
 }
 
-/* Age */
 .reviewer-age {
   font-size: 14px;
   color: #797979;
@@ -609,9 +560,318 @@ body {
   margin-bottom: 10px;
 }
 
-/* Review Text */
 .reviewer-review {
   font-size: 18px;
   color: #575757;
   line-height: 1.6;
+}
+
+.fourth-block {
+  text-align: center;
+  padding: 80px 7%;
+  background: #fffcf9;
+  min-height: 100vh;
+}
+
+.fourth-block-text-small {
+  font-size: 20px;
+  font-weight: 600;
+  color: #fb9333;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.fourth-block-text-big {
+  font-size: 48px;
+  font-weight: 700;
+  color: #575757;
+  display: inline;
+}
+
+.fourth-block-text span {
+  font-size: 42px;
+  font-weight: 700;
+  color: #fb9333;
+  display: inline-block;
+}
+
+.fourth-block-cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.fourth-block-single-card {
+  position: relative;
+  width: 480px;
+  height: 620px;
+  border-radius: 40px;
+  overflow: hidden;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.fourth-block-single-card:hover {
+  transform: translateY(-10px);
+}
+
+.dish-card {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.fourth-block-card-text-container {
+  position: absolute;
+  bottom: 15px;
+  left: 5%;
+  width: 100%;
+  color: white;
+  padding: 15px;
+  text-align: left;
+}
+
+.fourth-block-card-text {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 3%;
+}
+
+.fourth-block-card-text-price {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 3%;
+}
+
+
+
+
+
+
+
+
+
+.fifth-block {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.fifth-block-container {
+  position: relative;
+  width: 80%;
+  height: 80%;
+  padding: 60px 40px;
+  background-color: #FEF1E9;
+  background-image: url('../images/subscription-background-lines.svg');
+  background-size: cover;
+  background-position: -40px -50%;
+  background-repeat: no-repeat;
+  border-radius: 60px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  z-index: 2;
+}
+
+.subscription-background-image {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.fifth-block-subscription-small-main-text {
+  font-size: 20px;
+  font-weight: 600;
+  color: #FB9333;
+  margin-top: 3%;
+  z-index: 2;
+}
+
+.fifth-block-subscription-big-main-text {
+  font-size: 48px;
+  font-weight: 700;
+  color: #585858;
+  margin-top: 2%;
+  z-index: 2;
+}
+
+.fifth-block-subscription-main-undertext {
+  font-size: 16px;
+  color: #575757;
+  margin-top: 3%;
+  z-index: 2;
+}
+
+.fifth-block-subscription-email-input-container {
+  display: flex;
+  align-items: center;
+  max-width: 60%;
+  background: white;
+  padding: 5px;
+  border-radius: 50px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05);
+  margin: 0 auto;
+  margin-top: 10%;
+  z-index: 2;
+}
+
+.fifth-block-subscription-email-input-container input {
+  flex: 1;
+  font-size: 18px;
+  color: #575757;
+  border: none;
+  outline: none;
+  padding: 12px 20px;
+  border-radius: 50px;
+  z-index: 2;
+}
+
+.fifth-block-subscription-email-input-container button {
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  background: #FB9333;
+  border: none;
+  padding: 18px 28px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  
+}
+
+.fifth-block-subscription-email-input-container button:hover {
+  background: #E67E22;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  padding: 50px 7%;
+  background: #fff;
+  font-family: 'Poppins', sans-serif;
+}
+
+.logo {
+  max-width: 250px;
+}
+
+.logo-text {
+  font-size: 22px;
+  font-weight: 700;
+  color: #2B2B2B;
+  margin-bottom: 10px;
+}
+
+.logo-text span {
+  color: #FB9333;
+}
+
+.footer-copyright-text {
+  font-size: 14px;
+  color: #575757;
+  line-height: 1.5;
+  display: block;
+  margin-bottom: 30%;
+}
+
+.footer-copyright {
+  font-size: 14px;
+  color: #575757;
+  display: block;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer-links .footer-link:first-child {
+  font-weight: 700;
+  color: #FB9333;
+  margin-bottom: 5px;
+}
+
+.footer-link {
+  font-size: 14px;
+  color: #575757;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+  color: #FB9333;
+}
+
+.get-in-touch {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.get-in-touch-text {
+  font-size: 16px;
+  font-weight: 700;
+  color: #FB9333;
+  margin-bottom: 5px;
+}
+
+.footer-location,
+.footer-email,
+.footer-phone {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.footer-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.footer-text {
+  font-size: 14px;
+  color: #575757;
+  margin-left: 2%;
+  gap: 10%;
+}
+
+.social-links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.social-icons .footer-link img {
+  width: 24px;
+  height: 24px;
+  transition: transform 0.3s ease;
+}
+
+.social-icons .footer-link img:hover {
+  transform: scale(1.1);
+}
+
+.footer-social-links-text {
+  font-size: 14px;
+  color: #575757;
+  text-align: center;
 }
